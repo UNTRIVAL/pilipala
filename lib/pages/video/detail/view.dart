@@ -296,7 +296,9 @@ class _VideoDetailPageState extends State<VideoDetailPage>
           aspectRatio: Rational(
         videoDetailController.data.dash!.video!.first.width!,
         videoDetailController.data.dash!.video!.first.height!,
-      ));
+      ),
+      autoEnterEnabled:true,
+      );
     }
   }
 
